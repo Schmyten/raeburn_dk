@@ -7,10 +7,34 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
+theme = "ntun"
+
+default_language = "en"
+languages = []
+
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-highlight_code = false
+highlight_code = true
 
 [extra]
 # Put all your custom variables here
+author = "Jon Snow"
+author_image="me.jpg"
+city="Winterfell"
+years="281"
+
+job = "King of the north"
+description = "Dragons & Aunt ❤️"
+
+links = [
+    { url = "", title="", icon = "fab fa-github"},
+    { url = "", title="", icon = "fab fa-twitter"},
+    { url = "", title="", icon = "fab fa-linkedin"},
+    { url = "mailto:morten@raeburn.dk", title="", icon = "fas fa-envelope"}
+]
+
+# if you add languages, put your emoji flag on array
+languages_flags = [
+    "🇬🇧"
+]
