@@ -19,19 +19,19 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
-author = "Jon Snow"
+author = "Morten Raeburn"
 author_image="me.jpg"
-city="Winterfell"
+city="Aarhus, Denmark"
 years="281"
 
-job = "King of the north"
-description = "Dragons & Aunt ❤️"
+job = "Computer Scientist"
+description = "Student at Aarhus University"
 
 links = [
-    { url = "", title="", icon = "fab fa-github"},
-    { url = "", title="", icon = "fab fa-twitter"},
-    { url = "", title="", icon = "fab fa-linkedin"},
-    { url = "mailto:morten@raeburn.dk", title="", icon = "fas fa-envelope"}
+    { url = "https://github.com/MortenRaeburn", title="Github", icon = "fab fa-github"},
+    { url = "https://keybase.io/bouncedaddy69", title="Keybase", icon = "fab fa-keybase"},
+    { url = "https://www.linkedin.com/in/morten-raeburn-a1420a1b8/", title="LinkedIn", icon = "fab fa-linkedin"},
+    { url = "mailto:morten@raeburn.dk", title="morten@raeburn.dk", icon = "fas fa-envelope"}
 ]
 
 # if you add languages, put your emoji flag on array
